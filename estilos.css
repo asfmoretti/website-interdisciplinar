@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 header#cabecalho h1 {
-    font-size: 30px;
+    font-size: 25px;
 }
 header#cabecalho h2 {
     font-size: 20px;
@@ -12,17 +12,39 @@ footer#rodape {
 
 /* Formatação do menu principal */
 
-nav#menu ol {
-	list-style: none;
-	position: absolute;
-	top: 0px;
-	right: 60px;
+div.titulo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 146, 204);
+    padding: 20px;
+    box-shadow: 2px 2px 2px ;
+    border-radius: 10px;
 }
-nav#menu li{
-    display: inline-block;
-    padding: 10px;
-    margin: 3px;
-    padding-right: 2px;
-    padding-top: 30px;
+nav.menu ol {
+	list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 50px;
+}
+nav.menu li {
+    background-color: #8bafff;
+    padding: 7px;
+    border-radius: 10px;
+    transition: 1s;
+}
+nav.menu li:hover {
+    transform: scale(1.2);
+	z-index: 10;
+    background-color: #143f9c;
+}
+nav.menu a {
     font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+nav.menu a:hover {
+    color: wheat;
 }
