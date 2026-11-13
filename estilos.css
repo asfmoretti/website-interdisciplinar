@@ -8,6 +8,8 @@ header#cabecalho h2 {
 }
 footer#rodape {
     text-align: center;
+    background-color: rgb(0, 146, 204);
+    padding: 2%;
 }
 
 /* Formatação do menu principal */
