@@ -75,3 +75,32 @@ p.textos {
     text-align: justify;
     font-size: 20px;
 }
+
+/*Virtualizaçao*/
+
+h1#titulo_1 {
+    text-align: center;
+    border-radius: 20px;
+    text-shadow: 1px 1px 2px #092258;
+    background-color: #7194e06b;
+    font-size: 45px;
+
+}
+
+details.tipos{
+    background-color: #415b956b;
+    border: 1px solid #000;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+    border-radius: 20px;
+}
+
+.tipos summary {
+    font-size: 35px;
+    padding: 5px;
+}
+
+.tipos p {
+    font-size: 20px;
+}

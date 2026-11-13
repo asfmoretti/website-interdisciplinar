@@ -31,6 +31,118 @@
     </header>
     <article>
 
+        <h1 id="titulo_1">Virtualização</h1>
+
+        <p class="textos">
+            A virtualização é uma ferramenta na área da Tecnologia da Informação que utiliza um software para criar ambientes
+            virtuais em uma máquina, dividindo os componentes, como memória RAM, placa de vídeo e o processador, em vários sistemas
+            virtuais.
+        </p>
+
+        <h2 class="titulos">História da Virtualização</h2>
+
+        <p class="textos">
+            A virtualização foi criada por uma empresa chamada IBM, sigla para International Business Machines, em 1964. O projeto 
+            foi chamado de CP-40.  Depois evoluiu para o CP-67, que influenciou o Unix, um sistema de compartilhamento de tempo 
+            multiusuário. A IBM divulgou o seu produto de máquina virtual em 1972, o VM/370.<br>
+            No ano de 1998, a empresa VMware criou um sistema operacional que podia dividir uma máquina em várias máquinas virtuais, 
+            em cada uma rodando um sistema operacional diferente. Em 1999, a VMware lançou o VW Workstation 1.0, primeiro produto comercial 
+            que permitia ao consumidor executar vários sistemas operacionais em um computador.
+        </p>
+
+        <h2 class="titulos">O que é um hipervisor</h2>
+
+        <p class="textos">
+            O hipervisor é um programa que distribui recursos computacionais entre máquinas virtuais e a gerência. Ele é muito importante,
+            pois fornece a infraestrutura da virtualização moderna.<br>
+            Existem dois tipos de hipervisor, o hipervisor tipo 1 e o hipervisor tipo 2: <br>
+            O tipo 1, ou nativo, é implementado exatamente no hardware do aparelho, agindo com a CPU, RAM e o armazenamento, por interagir
+            com o hardware, esse modelo se torna muito eficiente, por isso é muito utilizado em data centers e outros lugares apoiado por servidores. <br>
+            O tipo 2, ou hospedado, é um software que abstrai o SO guest do SO host. Sendo muito usado por usuários que querem precisam de vários sistemas operacionais em uma máquina.
+
+        </p>
+
+        <h2 class="titulos">Tipos de Virtualização</h2>
+
+        <details class="tipos">
+            <summary>Virtualização de desktop</summary>
+            <p>
+                A virtualização de desktop cria um ambiente virtual dentro do seu sistema operacional, permitindo que seja acessado em
+                qualquer lugar. Existem dois tipos de virtualização de desktop, a infraestrutura de desktop virtual e a virtualização de
+                desktop local . A infraestrutura de desktop virtual cria computadores em máquinas virtuais em um servidor, que podem
+                transmitir para usuários logados. Enquanto a virtualização de desktop local usa um hipervisor em um computador local,
+                que permite que o usuário crie e use sistemas operacionais dependendo do que ele precisa
+            </p>
+        </details>
+        
+
+        <details class="tipos">
+            <summary>Virtualização de rede</summary>
+            <p>
+                A virtualização de rede utiliza software para gerenciar a rede sem alterar seus componentes físicos.
+                Ela transforma funções de hardware em software, facilitando o gerenciamento. Seus principais tipos 
+                são a virtualização de funções de rede (NFV), que simplifica a configuração e o gerenciamento, e a rede
+                 definida por software (SDN), que otimiza o tráfego por meio do plano de controle.
+            </p>
+        </details>
+
+        <details class="tipos">
+            <summary>Virtualização de armazenamento e de dados</summary>
+            <p>
+                A virtualização de armazenamento reúne diferentes hardwares em um único conjunto, facilitando seu gerenciamento.
+                 Já a virtualização de dados permite acessar e utilizar dados independentemente de seu formato ou localização.
+            </p>
+        </details>
+
+        <details class="tipos">
+            <summary>Virtualização de aplicações</summary>
+            <p>
+                A virtualização de aplicações permite executar softwares sem instalá-los diretamente no sistema operacional (SO).
+                Ela possui três tipos:<br>
+                -Virtualização local, que executa aplicações em um ambiente virtual;<br>
+                -Streaming de aplicações, que envia partes do aplicativo de um servidor conforme necessário; <br>
+                -Virtualização baseada em servidor, que executa o aplicativo remotamente e envia sua interface de usuário para o computador.
+            </p>
+        </details>
+
+        <details class="tipos">
+            <summary>Virtualização de CPU e de GPU</summary>
+            <p>
+                A virtualização de CPU divide os recursos do processador entre várias máquinas virtuais (VMs).<br>
+                Já a virtualização de GPU permite que várias VMs compartilhem os recursos da placa de vídeo.
+            </p>
+        </details>
+
+        <details class="tipos">
+            <summary>Virtualização de Data Centers</summary>
+            <p>
+                Por fim, a virtualização de data centers consiste em abstrair os recursos físicos de um data center
+                por meio de software, permitindo que um administrador os divida em múltiplos ambientes virtuais independentes,
+                 que podem ser utilizados por diferentes clientes.
+            </p>
+        </details>
+
+        <h2 class="titulos">Benefícios e Dificuldades da Virtualização</h2>
+
+        <h2>Benefícios</h2>
+            <nav>
+                <ul>
+                    <li>Economia de recursos</li>
+                    <li>É mais facil de gerenciar</li>
+                    <li>Facilita o backup</li>
+                    <li>Reposição rápida caso alguma falhe</li>
+                </ul>
+            </nav>
+
+        <h2>Dificuldades</h2>
+            <nav>
+                <ul>
+                    <li>Gestão complexa</li>
+                    <li>Planejamento para migrar para um sistema virtual</li>
+                    <li>Gerenciamento constante</li>
+                    <li>Vulnerabilidades</li>
+                </ul>
+            </nav>
 
     </article>
 
